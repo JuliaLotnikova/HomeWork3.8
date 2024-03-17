@@ -1,0 +1,134 @@
+.zoom-200 {
+    zoom: 200%;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+.char-limit {
+    font-style: italic;
+    color: gray;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 250px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+#clear-button {
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#clear-button img {
+    width: 12px;
+    height: 12px;
+}
+/* Стили страницы problem-page */
+#problem-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Стили страницы next-page */
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+#error-gif {
+    display: none;
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    10% { transform: translate(-10px, 0); }
+    20% { transform: translate(10px, 0); }
+    30% { transform: translate(-10px, 0); }
+    40% { transform: translate(10px, 0); }
+    50% { transform: translate(-10px, 0); }
+    60% { transform: translate(10px, 0); }
+    70% { transform: translate(-10px, 0); }
+    80% { transform: translate(10px, 0); }
+    90% { transform: translate(-10px, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+body {
+    background-image: url('https://img.freepik.com/free-photo/wooden-floor-background_53876-88628.jpg?size=626&ext=jpg&ga=GA1.1.1292351815.1710115200&semt=ais');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Gabriola, sans-serif;
+}
+body {
+    font-weight: bold;
+}
