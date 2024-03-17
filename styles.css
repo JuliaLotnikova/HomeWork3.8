@@ -132,3 +132,27 @@ body {
 body {
     font-weight: bold;
 }
+
+.tic-tac-toe .board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.tic-tac-toe .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.tic-tac-toe .cell:hover {
+    background-color: darkgray;
+}
